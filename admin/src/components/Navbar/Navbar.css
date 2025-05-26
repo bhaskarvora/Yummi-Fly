@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+
+.navbar .logo{
+    width: 8%;
+  
+
+
+}
+
+.navbar .profile {
+  
+  height: 55px;  /* Smaller profile image */
+  width: 55px;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover;  /* Ensures image scales properly */
+  cursor: pointer;
+}

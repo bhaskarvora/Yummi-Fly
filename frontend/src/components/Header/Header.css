@@ -1,0 +1,143 @@
+.header{
+    height: 50vw;
+    width: 100%;
+    margin: 30px auto;
+    border-radius: 0px;
+    background: url('/pr.png') no-repeat;
+    background-size: contain;
+    position: relative;
+
+}
+
+/* .header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadIn 3s;
+} */
+/* 
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    gap: 1.5vw;
+    width: 60%;             
+    bottom: 10%;
+    left: 50%;              
+    padding-right: 6vw;    
+    animation: fadIn 3s;
+    transform: translateX(-6vw); 
+}
+
+.header-contents h2{
+    font-weight: 500;
+    color: rgb(223, 18, 18);
+    font-size: max(5.5vw, 22px);    
+}
+
+.header-contents p{
+    color: tomato;
+    width: 60%;
+    
+    font-size: 1vw;
+    margin: 0;
+}
+
+
+.header-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    align-self: flex-end;
+
+} */
+
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    gap: 1vw;
+    width: 50%;              /* span right half */
+    left: 50%;               /* start from center */
+    bottom: 20%;             /* move everything up from bottom */
+    padding-right: 4vw;      /* space from right edge */
+    animation: fadIn 3s;
+    transform: translateX(0); /* no left push */
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: tomato;
+    font-size: max(5.5vw, 22px);
+    margin: 0;
+}
+
+.header-contents p {
+    color: tomato;
+    font-size: 1.1vw;
+    margin: 0;
+    max-width: 100%;
+}
+
+.header-contents button {
+    align-self: flex-end;
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    margin-top: 1vw;       /* ensure some spacing above button */
+}
+
+
+@keyframes fadIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@media (max-width:1050px)
+{
+    
+
+    .header-contents{
+        max-width: 45%;
+    }
+
+}
+
+@media (max-width:750px){
+    .header-contents{
+        max-width: 65%;
+    }
+
+    .header-contents p{
+        display: none;
+    }
+
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
+
