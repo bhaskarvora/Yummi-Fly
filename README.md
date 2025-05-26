@@ -35,21 +35,63 @@ YummiFly is a full-featured, full-stack **food delivery web application** that a
 | Admin     | React|
 | Auth      | JWT (JSON Web Token) |
 
-
 ## For Starting Backend
 
-cd backend
-npm install
-npm run server
+. cd backend
+. npm install
+. npm run server
 
 ## For Starting Frontend
 
-cd frontend
-npm install
-npm run dev
+. cd frontend
+. npm install
+. npm run dev
 
 ## For Starting Admin Panel
 
-cd admin
-npm install
-npm start
+. cd admin
+. npm install
+. npm 
+
+
+
+Screenshots
+🛠️ Admin Panel
+🧾 Admin Panel - Add Dish
+
+📋 Admin Panel - List All Dishes
+
+📦 Admin Panel - Orders
+
+🍽️ Customer Experience
+🍛 Another Dishes Section
+
+🛒 Cart
+
+
+➕ Customer Adding Dishes
+
+🚚 Delivery and Proceed to Checkout
+
+🏠 Delivery Page
+
+
+🧩 UI Components
+📄 Footer
+
+
+🧮 Menu Filter
+
+🍽️ Menu Section
+
+🍲 More Dishes
+
+📦 My Orders
+
+🔴 Red Dot in Cart Icon Shows Customer Added Dishes
+
+💳 Stripe Payment
+
+🥇 Top Dishes
+
+
